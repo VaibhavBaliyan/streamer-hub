@@ -68,3 +68,83 @@ recordings/
 # Temporary folders
 tmp/
 temp/
+
+# Additional dependencies and package managers
+.pnpm-store/
+.bun/
+bun.lockb
+.yarn/install-state.gz
+
+# Database and ORM
+drizzle/
+*.db-journal
+*.db-wal
+*.db-shm
+.turso/
+schema.sql
+
+# Authentication & Security
+.auth/
+auth-secret
+jwt-secret
+
+# Media & Streaming
+media/
+streams/
+thumbnails/
+*.m3u8
+*.ts
+*.mp4
+*.avi
+*.mov
+*.webm
+rtmp-streams/
+
+# Testing
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Monitoring & Analytics
+.sentry-native/
+sentry.properties
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Cloud & Deployment
+.vercel/
+.cloudflare/
+.fly/
+.railway/
+wrangler.toml
+fly.toml
+
+# Cache directories
+.cache/
+.parcel-cache/
+.turbo/
+dist/
+
+# Environment and configuration
+.env.local
+.env.development
+.env.staging
+.env.production
+.env.test
+config.local.json
+local.settings.json
+
+# IDE and development
+.swc/
+.eslintcache
+tsconfig.tsbuildinfo
+*.cpuprofile
+*.heapsnapshot
+
+# Operating System specific
+.DS_Store?
+ehthumbs.db
+Icon?
