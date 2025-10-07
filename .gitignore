@@ -46,6 +46,9 @@ next-env.d.ts
 *.swp
 *.swo
 
+# Project documentation (internal)
+Project notes/
+
 # OS
 Thumbs.db
 
